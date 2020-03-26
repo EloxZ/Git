@@ -20,6 +20,11 @@ public Jarra(int capacidadInicial){
   public void vacia(){
 	  this.cantidad=0;
   }
+  public int capacidad() {
+    	return this.capacidad;
+    }
+  public int cantidad() {
+    	return this.cantidad;
 	//David
   public Object clone() throws CloneNotSupportedException
     return (Jarra) super.clone;
