@@ -12,7 +12,9 @@ public Jarra(int capacidadInicial){
   public void metodoComunitario(){
 // Comentario incluido para pruebas
     System.out.println("David Pérez");
-
+    System.out.println("Eloy Barrionuevo");
+    System.out.println("Aarón Maldonado");
+    System.out.println("Ivan González");
 
   }
 
