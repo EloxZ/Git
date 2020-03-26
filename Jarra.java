@@ -11,13 +11,18 @@ public Jarra(int capacidadInicial){
 // Aquí vendrán después los métodos creados en la siguiente fase
   public void metodoComunitario(){
 // Comentario incluido para pruebas
-  System.out.println("Aqui escribimos todos");
-  }
-  
-  public void llena(){
-	  this.cantidad=this.capacidad;
-  }
-  public void vacia(){
-	  this.cantidad=0;
+    System.out.println("Aqui escribimos todos");
+
+    public void llena(){
+  	  this.cantidad=this.capacidad;
+    }
+    public void vacia(){
+  	  this.cantidad=0;
+    }
+    public int capacidad() {
+    	return this.capacidad;
+    }
+    public int cantidad() {
+    	return this.cantidad;
   }
 }
